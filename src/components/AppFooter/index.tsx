@@ -10,7 +10,7 @@ const { Text } = Typography;
 const { Footer } = Layout;
 
 export const DONATION_ACCOUNT =
-  "nano_1gxx3dbrprrh9ycf1p5wo9qgmftppg6z7688njum14aybjkaiweqmwpuu9py";
+  "ffd_3p1114twr7znfqarkx7dmg4ub5khxp3p4qkedpcr8t34n4xyori6ad9eg9ff";
 
 const AppFooter: React.FC = () => {
   const { t } = useTranslation();
@@ -27,7 +27,7 @@ const AppFooter: React.FC = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <GithubOutlined /> NanoLooker
+          <GithubOutlined /> FeidaLooker
         </a>{" "}
         ©{new Date().getFullYear()}{" "}
         {t("footer.createdBy", { creator: "RunningCoder" })}

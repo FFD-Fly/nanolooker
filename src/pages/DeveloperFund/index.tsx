@@ -104,7 +104,7 @@ const DeveloperFund: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Nano {t("menu.developerFund")}</title>
+        <title>Feida {t("menu.developerFund")}</title>
       </Helmet>
       <Row gutter={[12, 0]}>
         <Col xs={24} lg={12}>
@@ -141,7 +141,7 @@ const DeveloperFund: React.FC = () => {
               <Col xs={24} sm={18}>
                 <LoadingStatistic
                   isLoading={skeletonProps.loading}
-                  prefix="Ӿ"
+                  //prefix="FFD"
                   value={totalBalance}
                 />
                 <Skeleton {...skeletonProps}>
@@ -173,7 +173,7 @@ const DeveloperFund: React.FC = () => {
                   loading={!lastTransactionAmount}
                   paragraph={false}
                 >
-                  Ӿ {lastTransactionAmount}
+                  {lastTransactionAmount} FFD
                   <br />
                 </Skeleton>
                 <Skeleton
@@ -197,7 +197,7 @@ const DeveloperFund: React.FC = () => {
                   >
                     {t("pages.developerFund.allTransactions")}
                   </Button>
-                </Link>
+                {/* </Link>
               </Col>
             </Row>
           </Card>
@@ -249,7 +249,7 @@ const DeveloperFund: React.FC = () => {
                 {t("common.balance")}
               </Col>
               <Col xs={24} sm={18}>
-                Ӿ {new BigNumber("7000000").toFormat()}
+                {new BigNumber("7000000").toFormat()} FFD
                 <br />
                 {t("pages.developerFund.percentOfTotal", {
                   percent: new BigNumber(7000000 * 100)
@@ -267,7 +267,7 @@ const DeveloperFund: React.FC = () => {
                   to={`/block/${ORIGINAL_DEVELOPER_FUND_BLOCK}`}
                   className="break-word"
                 >
-                  {ORIGINAL_DEVELOPER_FUND_BLOCK}
+                  {ORIGINAL_DEVELOPER_FUND_BLOCK} */}
                 </Link>
               </Col>
             </Row>
@@ -306,7 +306,7 @@ const DeveloperFund: React.FC = () => {
                   display: "block",
                 }}
               >
-                Ӿ {balance}
+                {balance} FFD
               </span>
             </Col>
             <Col sm={14} md={14} xl={18}>

@@ -206,7 +206,7 @@ const BlockDetails: React.FC = () => {
               <Col xs={24} sm={18} xl={20}>
                 <LoadingStatistic
                   isLoading={skeletonProps.loading}
-                  prefix="Ӿ"
+                  //prefix="FFD"
                   value={
                     amount >= 1 ? amount : new BigNumber(amount).toFormat()
                   }
@@ -231,7 +231,7 @@ const BlockDetails: React.FC = () => {
                   {...skeletonProps}
                   title={{ width: isSmallAndLower ? "100%" : "33%" }}
                 >
-                  Ӿ {new BigNumber(balance).toFormat()}
+                  {new BigNumber(balance).toFormat()} FFD
                   <br />
                 </Skeleton>
                 <Skeleton
@@ -404,7 +404,7 @@ const BlockDetails: React.FC = () => {
           <Title level={3}>{t("pages.block.originalBlockContent")}</Title>
           <Card size="small">
             <Skeleton {...skeletonProps} paragraph>
-              <pre style={{ fontSize: "12px", marginBottom: 0 }}>
+              <pre style={{ fontSize: "13px", marginBottom: 0 }}>
                 {JSON.stringify(blockInfo, null, 2)}
               </pre>
             </Skeleton>

@@ -21,7 +21,7 @@ const Banner: React.FC = () => {
         alignItems: "center",
         flexDirection: "column",
         margin: "-12px -12px 12px -12px",
-        backgroundColor: theme === Theme.DARK ? "#121212" : "#4A90E2",
+        backgroundColor: theme === Theme.DARK ? "#121212" : "#229a6f",
         padding: "40px 0",
       }}
     >
@@ -36,7 +36,7 @@ const Banner: React.FC = () => {
         }}
       >
         <img
-          alt="Nano block explorer"
+          alt="Feida block explorer"
           height="24px"
           src={`/nano-${theme === Theme.DARK ? "dark" : "light"}.png`}
           style={{ marginRight: "12px" }}
@@ -65,7 +65,7 @@ const Banner: React.FC = () => {
           <Button ghost>{t("menu.whatIsNano")}</Button>
         </Link>
 
-        <Button
+        {/* <Button
           ghost
           href="https://pasino.com/?user_id=18828"
           target="_blank"
@@ -106,9 +106,11 @@ const Banner: React.FC = () => {
               Pasino
             </Text>
           </div>
-        </Button>
+        </Button> */}
 
-        <Link to={"/nanobrowserquest"}>
+
+
+        {/* <Link to={"/nanobrowserquest"}>
           <Button
             ghost
             style={{ padding: "0 10px" }}
@@ -128,6 +130,8 @@ const Banner: React.FC = () => {
           </Button>
         </Link>
 
+
+
         <Link to={"/nanoquakejs"}>
           <Button ghost>
             <img
@@ -140,7 +144,8 @@ const Banner: React.FC = () => {
             />{" "}
             NanoQuakeJS
           </Button>
-        </Link>
+        </Link> */}
+
 
         {/* <Button
           ghost

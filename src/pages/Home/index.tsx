@@ -127,7 +127,7 @@ const HomePage = () => {
           md={{ span: 12, order: 1 }}
           style={{ width: "100%" }}
         >
-          <Card
+          {/* <Card
             size="small"
             title={t("pages.home.network")}
             extra={
@@ -135,7 +135,10 @@ const HomePage = () => {
                 {t("pages.home.viewSocialEngagement")}
               </Link>
             }
-          >
+          > */}
+
+          <Card size="small" title={t("pages.home.network")}>
+            
             <Row gutter={6}>
               <Col xs={24} sm={12}>
                 <LoadingStatistic

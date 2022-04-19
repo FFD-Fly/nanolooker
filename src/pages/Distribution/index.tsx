@@ -200,7 +200,7 @@ const Distribution: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Nano {t("menu.distribution")}</title>
+        <title>Feida {t("menu.distribution")}</title>
       </Helmet>
       <Title level={3}>{t("pages.distribution.title")}</Title>
       <Card size="small">

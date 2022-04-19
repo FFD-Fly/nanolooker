@@ -257,15 +257,15 @@ cron.schedule("0 1 * * *", async () => {
   getMarketCapStats();
 });
 
-// Every 30 seconds
-cron.schedule("*/30 * * * * *", async () => {
+// Every 60 seconds
+cron.schedule("*/60 * * * * *", async () => {
   getPriceStats(defaultFiats);
   getMarketStats(defaultFiats);
 });
 
 // https://crontab.guru/#*/2_*_*_*_*
-// At every 2nd minute.
-cron.schedule("*/2 * * * *", async () => {
+// At every 3nd minute.
+cron.schedule("*/3 * * * *", async () => {
   getPriceStats(secondaryFiats);
   getMarketStats(secondaryFiats);
 });

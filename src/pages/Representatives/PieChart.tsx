@@ -102,7 +102,7 @@ const Representatives: React.FC<Props> = ({
     if (isGroupedByEntities && delegatedEntities.length) {
       // @TODO find a more scalable option
       const groups: { [key: string]: number } = {
-        "Nano Foundation": 0,
+        "Feida Foundation": 0,
         Binance: 0,
         Kraken: 0,
         Huobi: 0,

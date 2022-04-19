@@ -1008,5 +1008,10 @@
     "id": "banano",
     "symbol": "ban",
     "name": "Banano"
+  },
+  {
+    "id": "feida",
+    "symbol": "ffd",
+    "name": "Feida"
   }
 ]

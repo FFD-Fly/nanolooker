@@ -107,7 +107,7 @@ const NewsPage: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Nano {t("menu.news")}</title>
+        <title>Feida {t("menu.news")}</title>
       </Helmet>
       <Space style={{ marginBottom: "12px" }}>
         <Dropdown

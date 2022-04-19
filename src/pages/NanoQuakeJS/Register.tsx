@@ -12,7 +12,7 @@ import Play from "./Play";
 const { Text } = Typography;
 
 export const NANOQUAKEJS_DONATION_ACCOUNT =
-  "nano_18rtodfdzxqprb5pamok8surdg91x7wys8yk47uk3xp7cyu3nuc44teysix1";
+  "ffd_3p1114twr7znfqarkx7dmg4ub5khxp3p4qkedpcr8t34n4xyori6ad9eg9ff";
 
 enum Sections {
   REGISTER = "REGISTER",
@@ -57,7 +57,7 @@ const Register: React.FC = () => {
     setIsSending(true);
     setRegisterError("");
 
-    // Prefix account with nano_
+    // Prefix account with ffd_
     const address = getPrefixedAccount(account);
 
     try {
@@ -238,7 +238,7 @@ const Register: React.FC = () => {
                       <Input
                         {...field}
                         readOnly={isSending}
-                        placeholder="nano_"
+                        placeholder="ffd_"
                         suffix={
                           getValues("account") && !errors?.account ? (
                             <CheckCircleTwoTone twoToneColor={"#52c41a"} />

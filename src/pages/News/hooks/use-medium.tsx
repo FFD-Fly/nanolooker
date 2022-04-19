@@ -87,7 +87,7 @@ const getMediumPosts = async () => {
   const filteredPosts = uniqBy(orderedPosts, "title");
 
   // @NOTE Add category filtering if needed in the future
-  // filteredPosts.filter(({ categories }) => categories.includes("nano"));
+  // filteredPosts.filter(({ categories }) => categories.includes("ffd"));
 
   return filteredPosts;
 };

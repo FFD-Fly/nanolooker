@@ -47,9 +47,9 @@ const connect = async () =>
 
 const MIN_RECEIVE_AMOUNT = 100;
 const MIN_HOLDING_AMOUNT = 0.001;
-const MIN_DATE = "2021-10-12";
+const MIN_DATE = "2022-04-01";
 const ACCOUNT =
-  "nano_14uzbiw1euwicrt3gzwnpyufpa8td1uw8wbhyyrz5e5pnqitjfk1tb8xwgg4";
+  "ffd_15xg59myx1wk3a9rd785fbgzhopxkqsbnyf4y4scc1mq9w9i6wbsjo17tkx8";
 
 function formatDate(timestamp) {
   const date = new Date(timestamp);

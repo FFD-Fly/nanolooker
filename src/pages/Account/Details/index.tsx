@@ -175,7 +175,7 @@ const AccountDetails: React.FC<Props> = ({
               <Col xs={24} sm={18} md={20}>
                 <LoadingStatistic
                   isLoading={skeletonProps.loading}
-                  prefix="Ӿ"
+                  //prefix="FFD"
                   value={
                     balance >= 1 ? balance : new BigNumber(balance).toFormat()
                   }
@@ -318,7 +318,7 @@ const AccountDetails: React.FC<Props> = ({
                   </Tooltip>
                 </Col>
                 <Col xs={24} sm={18} md={20}>
-                  <Skeleton {...skeletonProps}>Ӿ {balancePending}</Skeleton>
+                  <Skeleton {...skeletonProps}>{balancePending} FFD</Skeleton>
                 </Col>
               </Row>
             ) : null}

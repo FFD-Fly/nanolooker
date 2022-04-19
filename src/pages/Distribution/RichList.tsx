@@ -102,7 +102,7 @@ const RichList: React.FC = () => {
                   </Link>
                 </Col>
                 <Col sm={6} md={6} xl={4}>
-                  Ӿ {new BigNumber(balance).toFormat()}
+                  {new BigNumber(balance).toFormat()} FFD
                   <span
                     className="color-muted"
                     style={{

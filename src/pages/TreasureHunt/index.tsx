@@ -17,7 +17,7 @@ const TreasureHunt: React.FC = () => {
         {isValidAccountAddress(account) ? (
           <title>Treasure Hunt {account}</title>
         ) : (
-          <title>Nano Treasure Hunt Participants</title>
+          <title>Feida Treasure Hunt Participants</title>
         )}
       </Helmet>
 

@@ -9,24 +9,24 @@ export const units: Unit[] = [
     raw: Infinity,
   },
   {
-    unit: "Ӿ1000",
+    unit: "1000 FFD",
     raw: 1e33,
-    display: "Ӿ1000",
+    display: "1000 FFD",
   },
   {
-    unit: "Ӿ1",
+    unit: "1 FFD",
     raw: 1e30,
-    display: "Ӿ1 ",
+    display: "1 FFD",
   },
   {
-    unit: "Ӿ0.001",
+    unit: "0.001 FFD",
     raw: 1e27,
-    display: "Ӿ0.001",
+    display: "0.001 FFD",
   },
   {
-    unit: "Ӿ0.000001",
+    unit: "0.000001 FFD",
     raw: 1e24,
-    display: `Ӿ0.000001`,
+    display: `0.000001 FFD`,
   },
   {
     unit: "1e+21 raw",

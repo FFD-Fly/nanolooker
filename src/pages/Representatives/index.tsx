@@ -105,7 +105,7 @@ const Representatives = () => {
   return (
     <>
       <Helmet>
-        <title>Nano {t("menu.representatives")}</title>
+        <title>Feida {t("menu.representatives")}</title>
       </Helmet>
       <Row gutter={[12, 0]}>
         <Col xs={24} md={12}>
@@ -212,7 +212,7 @@ const Representatives = () => {
               </Col>
               <Col xs={24} sm={16}>
                 <Skeleton {...confirmationQuorumSkeletonProps}>
-                  Ӿ {new BigNumber(principalRepresentativeMinWeight).toFormat()}
+                  {new BigNumber(principalRepresentativeMinWeight).toFormat()} FFD
                 </Skeleton>
               </Col>
             </Row>
@@ -233,7 +233,7 @@ const Representatives = () => {
               <Col xs={24} sm={16}>
                 {" "}
                 <Skeleton {...confirmationQuorumSkeletonProps}>
-                  Ӿ {new BigNumber(rawToRai(onlineWeightMinimum)).toFormat()}
+                  {new BigNumber(rawToRai(onlineWeightMinimum)).toFormat()} FFD
                 </Skeleton>
               </Col>
             </Row>
@@ -243,7 +243,7 @@ const Representatives = () => {
               </Col>
               <Col xs={24} sm={16}>
                 <Skeleton {...confirmationQuorumSkeletonProps}>
-                  Ӿ {new BigNumber(rawToRai(onlineStakeTotal)).toFormat(0)}
+                  {new BigNumber(rawToRai(onlineStakeTotal)).toFormat(0)} FFD
                 </Skeleton>
               </Col>
             </Row>
@@ -253,7 +253,7 @@ const Representatives = () => {
               </Col>
               <Col xs={24} sm={16}>
                 <Skeleton {...confirmationQuorumSkeletonProps}>
-                  Ӿ {new BigNumber(rawToRai(peersStakeTotal)).toFormat(0)}
+                  {new BigNumber(rawToRai(peersStakeTotal)).toFormat(0)} FFD
                 </Skeleton>
               </Col>
             </Row>
@@ -331,7 +331,7 @@ const Representatives = () => {
                           display: "block",
                         }}
                       >
-                        Ӿ {weight}
+                        {weight} FFD
                       </span>
 
                       {isPrincipal ? (

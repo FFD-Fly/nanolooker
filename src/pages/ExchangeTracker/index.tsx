@@ -252,7 +252,7 @@ const ExchangeTrackerPage: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Nano {t("menu.exchangeTracker")}</title>
+        <title>Feida {t("menu.exchangeTracker")}</title>
       </Helmet>
       <Title level={3}>{t("menu.exchangeTracker")}</Title>
 
@@ -318,7 +318,7 @@ const ExchangeTrackerPage: React.FC = () => {
 
         <LoadingStatistic
           title={t("pages.exchangeTracker.totalSelected")}
-          prefix="Ӿ"
+          prefix="FFD"
           value={totalExchangeBalance}
           isLoading={!exchangeBalances}
         />

@@ -34,7 +34,7 @@ const NanoBrowserQuestGuidePage: React.FC = () => {
       <Row gutter={[12, 0]}>
         <Col xs={24}>
           <Title level={3}>
-            NanoBrowserQuest Guide{" "}
+            FeidaBrowserQuest Guide{" "}
             <span
               className="color-muted"
               style={{

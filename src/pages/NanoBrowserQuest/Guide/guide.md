@@ -1,4 +1,4 @@
-﻿# Nano Browserquest item guide
+﻿# Feida Browserquest item guide
 
 This is a guide to all of the items that you can find in NBQ, their basic stats, where to find them and how common/rare they are.
 

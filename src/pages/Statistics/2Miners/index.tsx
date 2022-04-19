@@ -120,7 +120,7 @@ const Statistics2MinersPage: React.FC = () => {
               name === t("pages.statistics.2miners.payouts") ||
               name === t("pages.statistics.2miners.balanceHolding")
             ) {
-              prefix = "Ӿ";
+              prefix = "FFD";
             } else if (name === t("pages.statistics.2miners.fiatPayouts")) {
               prefix = "$";
               format = 2;
@@ -203,7 +203,7 @@ const Statistics2MinersPage: React.FC = () => {
               title={<>{t("pages.statistics.2miners.totalPayouts")}</>}
               value={totalPayouts}
               isLoading={!totalPayouts}
-              prefix="Ӿ"
+              prefix="FFD"
             />
           </Col>
           <Col xs={24} sm={12} lg={8}>

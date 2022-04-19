@@ -1,8 +1,8 @@
-# NanoLooker
+# FeidaLooker
 
 ![image](https://user-images.githubusercontent.com/19352322/115473119-212dff00-a209-11eb-922c-ba37838318f6.png)
 
-## What is Nano ?
+## What is Feida ?
 
 The goal of Nano is to create an efficient cryptocurrency, one that could be used for daily payments, by anyone in the world, without the emissions that come with Bitcoin.
 Nano makes money efficient for a more equal world — simple to pay with, easy to accept and open to all.
@@ -39,7 +39,7 @@ GOOGLE_APPLICATION_CREDENTIALS=
 
 ## Languages
 
-The language set in the Browser determines the language that NanoLooker will load and default to `en` if it's not in the supported list. Since most languages were generated using Google Translation API, some translations may be inaccurate.
+The language set in the Browser determines the language that FeidaLooker will load and default to `en` if it's not in the supported list. Since most languages were generated using Google Translation API, some translations may be inaccurate.
 
 Many of the most common languages are supported.
 
@@ -77,11 +77,11 @@ If you think some strings should be corrected open a PR with the corrections on 
 
 ### Donators
 
-Thanks for financially contributing to NanoLooker hosting and development.
+Thanks for financially contributing to FeidaLooker hosting and development.
 
 ### Projects
 
-A few projects from the Nano community were really helpful for building NanoLooker
+A few projects from the Nano community were really helpful for building FeidaLooker
 
 - [My Nano Ninja](https://mynano.ninja/)
 - [NanoCrawler](https://nanocrawler.cc/)

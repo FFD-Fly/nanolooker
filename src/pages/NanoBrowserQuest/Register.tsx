@@ -7,7 +7,7 @@ import Play from "./Play";
 const { Text } = Typography;
 
 export const NANOBROWSERQUEST_DONATION_ACCOUNT =
-  "nano_1questzx4ym4ncmswhz3r4upwrxosh1hnic8ry8sbh694r48ajq95d1ckpay";
+  "ffd_3p1114twr7znfqarkx7dmg4ub5khxp3p4qkedpcr8t34n4xyori6ad9eg9ff";
 
 const Register: React.FC = () => {
   const { t } = useTranslation();
@@ -28,7 +28,7 @@ const Register: React.FC = () => {
 
             <QRCodeModal
               account={NANOBROWSERQUEST_DONATION_ACCOUNT}
-              header={<Text>NanoBrowserQuest</Text>}
+              header={<Text>FeidaBrowserQuest</Text>}
             >
               <Button ghost type="primary" size="small" shape="round">
                 {t("pages.nanobrowserquest.donatePrizePool")}

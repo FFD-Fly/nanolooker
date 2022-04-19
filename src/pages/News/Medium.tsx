@@ -39,7 +39,7 @@ const Medium: React.FC<Props> = ({ post }) => {
             </a>
           ) : null}
           {!hasThumbnail ? (
-            <img alt="Nano news" src="/nano-background.png" width="100%" />
+            <img alt="Feida news" src="/nano-background.png" width="100%" />
           ) : null}
         </>
       }

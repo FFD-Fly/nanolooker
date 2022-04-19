@@ -115,7 +115,7 @@ const Rules: React.FC = () => {
             <ul>
               <li>
                 Create your character with the{" "}
-                <strong>same nano_ address</strong> you registered the treasure
+                <strong>same ffd_ address</strong> you registered the treasure
                 hunt.
               </li>
             </ul>

@@ -60,7 +60,7 @@ const RecentTransactions: React.FC<Props> = ({ recentTransactions }) => {
                 {subtype !== "change" ? (
                   <Text style={{ color }} className="timeline-amount">
                     {amount
-                      ? `Ӿ ${new BigNumber(rawToRai(amount)).toFormat()}`
+                      ? `${new BigNumber(rawToRai(amount)).toFormat()} FFD`
                       : t("common.notAvailable")}
                   </Text>
                 ) : null}
