@@ -121,7 +121,7 @@ const DeveloperFund: React.FC = () => {
                 totalAccounts: data.length,
               })}
               <br />
-              <a
+              {/* <a
                 style={{
                   display: "inline-block",
                   marginTop: "12px",
@@ -131,7 +131,7 @@ const DeveloperFund: React.FC = () => {
                 rel="noopener noreferrer"
               >
                 {t("common.continueReading")}
-              </a>
+              </a> */}
             </div>
 
             <Row gutter={6}>

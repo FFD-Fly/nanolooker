@@ -51,6 +51,7 @@ const LanguagePreferences: React.FC<Props> = ({ isDetailed }) => {
           style={{ width: 120 }}
         >
           <Option value="en">English</Option>
+          <Option value="zh">中文</Option>
           <Option value="fr">Français</Option>
           <Option value="es">Español</Option>
           <Option value="ar">العربية</Option>
@@ -66,7 +67,6 @@ const LanguagePreferences: React.FC<Props> = ({ isDetailed }) => {
           <Option value="ru">Pусский</Option>
           <Option value="tr">Türkçe</Option>
           <Option value="vi">Tiếng Việt</Option>
-          <Option value="zh">中文</Option>
         </Select>
       </Col>
     </Row>

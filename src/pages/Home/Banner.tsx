@@ -35,12 +35,12 @@ const Banner: React.FC = () => {
           justifyContent: "center",
         }}
       >
-        <img
+        {/* <img
           alt="Feida block explorer"
           height="24px"
           src={`/nano-${theme === Theme.DARK ? "dark" : "light"}.png`}
           style={{ marginRight: "12px" }}
-        />
+        /> */}
         <Title
           level={3}
           style={{
@@ -52,7 +52,7 @@ const Banner: React.FC = () => {
             whiteSpace: "nowrap",
           }}
         >
-          {t("common.blockExplorer")}
+         Feida  {t("common.blockExplorer")}
         </Title>
       </div>
 

@@ -11,6 +11,7 @@ import { useHistory, useLocation } from "react-router-dom";
 import Search from "components/Search";
 import Price from "components/Price";
 import Preferences from "components/Preferences";
+import { Theme, PreferencesContext } from "api/contexts/Preferences";
 
 const { SubMenu } = Menu;
 const { Header } = Layout;
@@ -20,6 +21,7 @@ const AppHeader: React.FC = () => {
   const [activeMenu, setActiveMenu] = React.useState<string>("");
   const history = useHistory();
   const { pathname } = useLocation();
+  const { theme } = React.useContext(PreferencesContext);
 
   React.useEffect(() => {
     const key = pathname.replace(/\/?([^/]+)/, "$1");
@@ -49,7 +51,7 @@ const AppHeader: React.FC = () => {
             }}
           >
             <Link to="/" style={{ whiteSpace: "nowrap", marginRight: "10px" }}>
-              FeidaLooker
+              <img src={`/logo-${theme === Theme.DARK ? "dark" : "light"}.png`} />
             </Link>
           </Col>
           <Col xs={{ span: 24, order: 3 }} md={{ span: 12, order: 2 }}>

@@ -96,7 +96,7 @@
     "dailyBalance": "交易图表仅在账户有超过 1 天的数据并且交易有时间戳时才可见"
   },
   "search": {
-    "searchBy": "按地址/阻止/已知帐户搜索",
+    "searchBy": "按地址/区块哈希/已知帐户搜索",
     "noHistory": "没有搜寻记录",
     "scanWallet": "扫描以“ffd_”开头的钱包账户"
   },
