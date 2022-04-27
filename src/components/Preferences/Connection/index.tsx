@@ -126,7 +126,7 @@ const ConnectionPreferences: React.FC<Props> = ({ isDetailed }) => {
                           {...field}
                           type="text"
                           style={{ width: "400px", maxWidth: "100%" }}
-                          placeholder={`ws://ws.ffd.one/ws`}
+                          placeholder={`wss://ws.ffd.one/ws`}
                           maxLength={255}
                           suffix={
                             getValues("websocketDomain") &&

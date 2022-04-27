@@ -122,7 +122,7 @@ const useSocket = () => {
     setIsConnected(false);
 
     // ws = new WebSocket(websocketDomain || "wss://www.nanolooker.com/ws");
-    ws = new WebSocket(websocketDomain || "ws://ws.ffd.one/ws");
+    ws = new WebSocket(websocketDomain || "wss://ws.ffd.one/ws");
 
     ws.onopen = () => {
       setIsError(false);

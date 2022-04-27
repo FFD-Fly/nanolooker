@@ -38,7 +38,7 @@ const Provider: React.FC = ({ children }) => {
     setIsError(false);
     setIsLoading(true);
 
-    const res = await fetch("http://192.168.1.46:9301/api/node-status");
+    const res = await fetch("http://looker.ffd.one/api/node-status");
     const json = await res.json();
 
     !json || json.error ? setIsError(true) : setNodeStatus(json);

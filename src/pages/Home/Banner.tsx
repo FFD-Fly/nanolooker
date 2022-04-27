@@ -52,10 +52,10 @@ const Banner: React.FC = () => {
             whiteSpace: "nowrap",
           }}
         >
-         Feida  {t("common.blockExplorer")}
+          FeiDa {t("common.blockExplorer")}
         </Title>
-      </div>
 
+      </div>
       <div style={{ marginBottom: "18px" }}>
         <Search isHome />
       </div>
